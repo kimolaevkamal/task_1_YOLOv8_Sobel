@@ -8,6 +8,9 @@ YOLOv8_Sobel/
 ├─ train_sobel/ # Предобработанные train изображения
 ├─ val_sobel/ # Предобработанные val изображения
 └─ runs/ # Результаты обучения YOLOv8
+# Датасет
+
+оригинал датасета - https://drive.google.com/file/d/1bbyqVCKZX5Ur5Zg-uKj0jD0maWAVeOLx/view
 Папки с оригинальным датасетом (`train2017/`, `val2017/`, `test2017/`) и JSON-файлы COCO должны быть подготовлены отдельно.
 Подготовьте датасет в формате:
 dataset_path/
@@ -17,5 +20,5 @@ dataset_path/
 ├─ instances_train2017.json
 ├─ instances_val2017.json
 └─ instances_test2017.json
-#Использование
+# Использование
 Измените директории под ваше местоположение датасета
