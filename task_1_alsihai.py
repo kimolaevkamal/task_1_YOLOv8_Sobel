@@ -75,8 +75,4 @@ model.train(
 test_img = list(preproc_val.glob("*.jpg"))[0]
 results = model.predict(source=str(test_img), show=True)
 
-# Commented out IPython magic to ensure Python compatibility.
-!git clone https://github.com/kimolaevkamal/task_1_YOLOv8_Sobel
-# %cd YOLOv8_Sobel
 
-!cp /content/Task_1_AlishAi.ipynb .
